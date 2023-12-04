@@ -10,3 +10,5 @@ C:\Users\Student\Documents\Stefi Tigura\WebShop\WebStoreApp\WebShopApp.Infrastru
 C:\Users\Student\Documents\Stefi Tigura\WebShop\WebStoreApp\WebShopApp.Infrastructure\obj\Debug\net6.0\refint\WebShopApp.Infrastructure.dll
 C:\Users\Student\Documents\Stefi Tigura\WebShop\WebStoreApp\WebShopApp.Infrastructure\obj\Debug\net6.0\WebShopApp.Infrastructure.pdb
 C:\Users\Student\Documents\Stefi Tigura\WebShop\WebStoreApp\WebShopApp.Infrastructure\obj\Debug\net6.0\ref\WebShopApp.Infrastructure.dll
+C:\Users\Student\Documents\Stefi Tigura\WebShop\WebStoreApp\WebShopApp.Infrastructure\bin\Debug\net6.0\WebShopApp.Infrastructure.runtimeconfig.json
+C:\Users\Student\Documents\Stefi Tigura\WebShop\WebStoreApp\WebShopApp.Infrastructure\obj\Debug\net6.0\WebShopApp.Infrastructure.genruntimeconfig.cache

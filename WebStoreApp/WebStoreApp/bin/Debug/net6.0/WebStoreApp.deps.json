@@ -546,8 +546,11 @@
       },
       "WebShopApp.Infrastructure/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.20",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.20",
-          "Microsoft.EntityFrameworkCore": "6.0.20"
+          "Microsoft.AspNetCore.Identity.UI": "6.0.20",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.20",
+          "Microsoft.EntityFrameworkCore.Tools": "6.0.20"
         },
         "runtime": {
           "WebShopApp.Infrastructure.dll": {}
