@@ -91,49 +91,52 @@ namespace WebStoreApp.Areas.Identity.Pages.Account
             {
                 var user = new ApplicationUser
                 {
-                    UserName=Input.UserName,
-                    Email=Input.Email,
-                    FirstName=Input.FirstName,
-                    LastName=Input.LastName,
-                    Address=Input.Address
+                    UserName = Input.UserName,
+                    Email = Input.Email,
+                    FirstName = Input.FirstName,
+                    LastName = Input.LastName,
+                    Address = Input.Address
 
                 };
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
-                    await _signInManager.SignInAsync(user,isPersistent: false);
+                    _userManager.AddToRoleAsync(user, "Client").Wait();
+                    await _signInManager.SignInAsync(user, isPersistent: false);
                     return LocalRedirect(returnUrl);
                 }
                 foreach (var error in result.Errors)
                 {
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
+            }
+
+                // If we got this far, something failed, redisplay form
+                return Page();
             
-            // If we got this far, something failed, redisplay form
-            return Page();
         }
 
-        private IdentityUser CreateUser()
-        {
-            try
-            {
-                return Activator.CreateInstance<IdentityUser>();
-            }
-            catch
-            {
-                throw new InvalidOperationException($"Can't create an instance of '{nameof(IdentityUser)}'. " +
-                    $"Ensure that '{nameof(IdentityUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
-                    $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
-            }
-        }
+        /*  private IdentityUser CreateUser()
+          {
+              try
+              {
+                  return Activator.CreateInstance<IdentityUser>();
+              }
+              catch
+              {
+                  throw new InvalidOperationException($"Can't create an instance of '{nameof(IdentityUser)}'. " +
+                      $"Ensure that '{nameof(IdentityUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
+                      $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
+              }
+          }
 
-        private IUserEmailStore<IdentityUser> GetEmailStore()
-        {
-            if (!_userManager.SupportsUserEmail)
-            {
-                throw new NotSupportedException("The default UI requires a user store with email support.");
-            }
-            return (IUserEmailStore<IdentityUser>)_userStore;
-        }
+          private IUserEmailStore<IdentityUser> GetEmailStore()
+          {
+              if (!_userManager.SupportsUserEmail)
+              {
+                  throw new NotSupportedException("The default UI requires a user store with email support.");
+              }
+              return (IUserEmailStore<IdentityUser>)_userStore;
+       }  */
     }
 }
