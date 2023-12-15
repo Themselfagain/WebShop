@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "\\WebStoreApp",
+    "\\WebStoreApp\\WebShopApp.Core",
+    "\\WebStoreApp\\WebShopApp.Core\\Contracts",
+    "\\WebStoreApp\\WebShopApp.Core\\Services",
+    "\\WebStoreApp\\WebShopApp.Infrastructure",
+    "\\WebStoreApp\\WebStoreApp",
+    "\\WebStoreApp\\WebStoreApp\\Controllers"
+  ],
+  "PreviewInSolutionExplorer": false
+}

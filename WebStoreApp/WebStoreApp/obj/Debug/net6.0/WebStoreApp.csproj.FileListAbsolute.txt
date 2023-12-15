@@ -290,3 +290,16 @@ C:\Users\Student\Documents\Stefi Tigura\WebShop\WebStoreApp\WebStoreApp\bin\Debu
 C:\Users\Student\Documents\Stefi Tigura\WebShop\WebStoreApp\WebStoreApp\bin\Debug\net6.0\WebShopApp.Core.pdb
 C:\Users\Student\Documents\Stefi Tigura\WebShop\WebStoreApp\WebStoreApp\bin\Debug\net6.0\Castle.Core.dll
 C:\Users\Student\Documents\Stefi Tigura\WebShop\WebStoreApp\WebStoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\sheik\Desktop\Programirane kato cqlo\WebShopApp\WebStoreApp\WebStoreApp\obj\Debug\net6.0\WebStoreApp.csproj.AssemblyReference.cache
+C:\Users\sheik\Desktop\Programirane kato cqlo\WebShopApp\WebStoreApp\WebStoreApp\obj\Debug\net6.0\WebStoreApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sheik\Desktop\Programirane kato cqlo\WebShopApp\WebStoreApp\WebStoreApp\obj\Debug\net6.0\WebStoreApp.AssemblyInfoInputs.cache
+C:\Users\sheik\Desktop\Programirane kato cqlo\WebShopApp\WebStoreApp\WebStoreApp\obj\Debug\net6.0\WebStoreApp.AssemblyInfo.cs
+C:\Users\sheik\Desktop\Programirane kato cqlo\WebShopApp\WebStoreApp\WebStoreApp\obj\Debug\net6.0\WebStoreApp.csproj.CoreCompileInputs.cache
+C:\Users\sheik\Desktop\Programirane kato cqlo\WebShopApp\WebStoreApp\WebStoreApp\obj\Debug\net6.0\WebStoreApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sheik\Desktop\Programirane kato cqlo\WebShopApp\WebStoreApp\WebStoreApp\obj\Debug\net6.0\WebStoreApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sheik\Desktop\Programirane kato cqlo\WebShopApp\WebStoreApp\WebStoreApp\obj\Debug\net6.0\WebStoreApp.RazorAssemblyInfo.cache
+C:\Users\sheik\Desktop\Programirane kato cqlo\WebShopApp\WebStoreApp\WebStoreApp\obj\Debug\net6.0\WebStoreApp.RazorAssemblyInfo.cs
+C:\Users\sheik\Desktop\Programirane kato cqlo\WebShopApp\WebStoreApp\WebStoreApp\obj\Debug\net6.0\WebStoreApp.sourcelink.json
+C:\Users\sheik\Desktop\Programirane kato cqlo\WebShopApp\WebStoreApp\WebStoreApp\obj\Debug\net6.0\WebStoreApp.dll
+C:\Users\sheik\Desktop\Programirane kato cqlo\WebShopApp\WebStoreApp\WebStoreApp\obj\Debug\net6.0\refint\WebStoreApp.dll
+C:\Users\sheik\Desktop\Programirane kato cqlo\WebShopApp\WebStoreApp\WebStoreApp\obj\Debug\net6.0\WebStoreApp.pdb
