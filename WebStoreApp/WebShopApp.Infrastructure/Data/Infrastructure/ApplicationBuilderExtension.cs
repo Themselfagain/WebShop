@@ -95,7 +95,7 @@ namespace WebShopApp.Infrastructure.Data.Infrastructure
             new Brand{BrandName = "HP"},
             new Brand{BrandName = "Huawei"},
             new Brand{BrandName = "Lenovo"},
-            new Brand{BrandName = "Samsung"}
+            new Brand{BrandName = "Samsung"},
             });
             dataBrand.SaveChanges();
         }
