@@ -20,7 +20,7 @@ namespace WebStoreApp.Models.Product
         public int Quantity { get;set; }
         [Display(Name = "Price")]
         public decimal Price { get; set; }
-        [Display(Name = "Decimal")]
+        [Display(Name = "Discount")]
         public decimal Discount { get; set; }
 
     }
