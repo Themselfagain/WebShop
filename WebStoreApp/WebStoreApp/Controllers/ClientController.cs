@@ -76,6 +76,10 @@ namespace WebStoreApp.Controllers
             }
             return NotFound();
         }
+        public ActionResult Success()
+        {
+            return View();
+        }
        
     }
 }
